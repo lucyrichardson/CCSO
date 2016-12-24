@@ -5,23 +5,37 @@
 <link type="text/css" rel="StyleSheet" href="main.css" />
 </head>
 
-
 <body>
-<!--
-$ADMIN_BAR$
--->
 <div class="content">
-<!--
-$GLOBAL_TOPMAIN$
--->
+
+<!-- MENU -->
+<div class="wrapper">
+    <div id="catmenu">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li class="dropdown">
+		<a href="concerts.html" class="dropbtn">Concerts</a>
+		<div class="dropdown-content">
+			<a href="previous_concerts.html">Previous concerts</a>
+		</div>
+	</li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="contact_us.html">Contact Us</a></li>
+	<div class="clr"></div>
+    </div>
+</div>
+
+<!-- TITLE -->
 <div id="header" style="font-size: 22.5px">
 City of Cardiff Symphony Orchestra<br><br>
 </div>
-<img src="Pictures/CCSO_Colour_Logo_small.jpg" alt="CCSO logo" style="float:right;width:30%;height:auto;margin: 0px 20px -35px 80px">
+<img src="images/CCSO Colour Logo small.jpg" alt="CCSO logo" style="float:right;width:30%;height:auto;margin: 0px 20px -35px 80px">
+
+<!-- PAGE CONTENT -->
 Welcome to CCSO's website.<br><br>
 CCSO is an amateur orchestra based in Cardiff. We perform at least five concerts per year with varied, challenging programmes, often with high-class, professional soloists. 
-<img src="/CCSO482.CR2.p.jpg" alt="CCSO482.CR2" style="float:left;width:60%;height:auto;margin: 10px 30px 0px 0px">
-<BR CLEAR=right><p>Our <a href="/index/concerts/0-5">next concert</a> is on Saturday 19th November 2016 at 7.30 p.m. and the programme will be:<br>
+<img src="images/CCSO482.CR2.p.jpg" alt="CCSO482.CR2" style="float:left;width:60%;height:auto;margin: 10px 30px 0px 0px">
+<BR CLEAR=right><p>Our <a href="concerts.html">next concert</a> is on Saturday 19th November 2016 at 7.30 p.m. and the programme will be:<br>
 <center><table>
 <tr>
 <th>Elgar:</th>
@@ -36,16 +50,29 @@ CCSO is an amateur orchestra based in Cardiff. We perform at least five concerts
 <th>Symphony No. 1</th>
 </tr>
 </table></center>
-<br>For an email reminder for each of our concerts, please <a href="/index/contact_us/0-8">contact us</a>.<br><br>
-Please also <a href="/index/contact_us/0-8">contact us</a> if you are interested in joining our orchestra.
+<br>For an email reminder for each of our concerts, please <a href="contact_us.html">contact us</a>.<br><br>
+Please also <a href="contact_us.html">contact us</a> if you are interested in joining our orchestra.
 </div>
-<!--
-$GLOBAL_BOTTOM$
-$GLOBAL_BFOOTER$
--->
+
+<!-- FOOTER -->
+<div id="bottom">
+    <img src="images/Ty Cerdd.gif" alt="Ty_Cerdd" style="float:left;width:220px;height:auto;margin: 0px 0px 0px 15%;vertical-align:middle">
+    <div class="facebook"><a class="facebook" href="https://www.facebook.com/groups/13510815441/" style="black" target="_blank">
+	<img src="images/Facebook.png" alt="Facebook icon" style="width:25px;height:auto;margin: 0px 0px 0px 0px;vertical-align:middle">
+	Follow us on facebook</div></a>
 </div>
-<script type="text/javascript" src="/.s/t/1201/ui.js"></script>
-<script>$('#catmenu > div > ul').prepend('<li><a href="/" class="home-i"><span></span></a></li>');</script>
+
+<footer>
+    <div id="footer">
+	<div class="wrapper">
+	    <div class="foot-i">
+		Copyright CCSO &copy; 2016.
+	    </div>
+	    <div class="clr"></div>
+	</div>
+    </div>
+</footer>
+</div>
 
 <div style="display:none">-->
 
