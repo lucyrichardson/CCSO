@@ -61,9 +61,7 @@ p {
 	align-items: center;
 }
 
-.image:hover {
-    border: 1px solid #777;
-}
+.image:hover {border: 1px solid #777;}
 
 .image img {
     margin: 2px;
