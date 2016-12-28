@@ -210,7 +210,7 @@ input[type="submit"]:hover{
     cursor:pointer;
 }
 .t01_text {
-    width:92%;
+    width:100%;
     height: 30px;
     padding: 0 10px;
     border:1px solid #d9d9d9;
@@ -238,7 +238,7 @@ input[type="submit"]:hover{
 #catmenu .dropdown:hover .dropdown-content {display: block;}
 
 /* PAGE FOOTER*/
-#bottom {margin: 0px 15% 40px 0px}
+#bottom {margin: 0px auto 40px auto;max-width: 800px;}
 .facebook {text-align: right;font-family: 'Arial';font-size:14px}
 a:link.facebook {color: #737373; font-weight: normal}
 a:visited.facebook {color: #737373; font-weight: normal}
