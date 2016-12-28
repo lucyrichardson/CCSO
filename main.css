@@ -93,10 +93,10 @@ p {
 .white_content {
     display:none;
     position: fixed;
-    top: 12%;
-    left: 15%;
-    width: 70%;
-    height: 76%;
+    top: 23%;
+    left: 25%;
+    width: 50%;
+    height: 54%;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -113,7 +113,7 @@ p {
 	max-height:100%;
 	text-align: center;
 	vertical-align: middle;
-	flex: 0 0 auto;
+	flex: auto auto auto;
 }
 
 .close_button {
