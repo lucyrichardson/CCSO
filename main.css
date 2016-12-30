@@ -237,6 +237,13 @@ input[type="submit"]:hover{
 #catmenu .dropdown-content a:hover {height:auto;border:1px;line-height:normal;background:#e8e7e3;text-decoration:none;color:#000000;}
 #catmenu .dropdown:hover .dropdown-content {display: block;}
 
+/* FORM */
+.form {text-align: left;font-family: 'Arial';font-size:8px}
+a:link.form {color: #737373; font-weight: normal}
+a:visited.form {color: #737373; font-weight: normal}
+a:hover.form {color: #000000; font-weight: normal} 
+a:active.form {color: #737373; font-weight: normal}
+
 /* PAGE FOOTER*/
 #bottom {margin: 0px auto 40px auto;max-width: 800px;}
 .facebook {text-align: right;font-family: 'Arial';font-size:14px}
