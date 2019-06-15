@@ -245,7 +245,7 @@ a:hover.form {color: #000000; font-weight: normal}
 a:active.form {color: #737373; font-weight: normal}
 
 /* PAGE FOOTER*/
-#bottom {margin: 0px auto 40px auto;max-width: 800px;}
+#bottom {margin: 0px auto 70px auto;max-width: 800px;}
 .facebook {text-align: right;font-family: 'Arial';font-size:14px}
 a:link.facebook {color: #737373; font-weight: normal}
 a:visited.facebook {color: #737373; font-weight: normal}
