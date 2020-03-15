@@ -175,7 +175,7 @@ p {
 #logo {}
 .image_logo {display: inline-block;
     position: relative;
-    background: url('images/CCSO Colour Logo small.jpg') no-repeat;
+    background: url('images/thumbnail_CCSO Logo-web.png') no-repeat;
     background-size:contain;
     background-position: left top;
     width: 250px;
