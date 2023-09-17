@@ -187,7 +187,7 @@ p {
     margin-left: 70px; }
 
 table {border-collapse: collapse;}
-th {text-align: left; font-weight: normal;}
+th {text-align: left; font-weight: normal; vertical-align: top;}
 
 /* EMAIL FORM */
 #t01 {
